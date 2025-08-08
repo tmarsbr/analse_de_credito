@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+.dist/
+
+# Virtual env
+.env/
+.venv/
+venv/
+ENV/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb~
+
+# Dados grandes / sensíveis
+/data/
+!/data/README.md
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+
+# Logs / tmp
+*.log
+logs/
+/tmp/
+*.tmp
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema
+.DS_Store
+Thumbs.db
+
