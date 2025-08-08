@@ -20,15 +20,14 @@ ENV/
 *.ipynb~
 
 # Dados grandes / sensíveis
-/data/
-!/data/README.md
-*.csv
-*.parquet
-*.xlsx
-*.xls
-*.zip
-*.tar
-*.gz
+# Mantemos estrutura directories mas ignoramos arquivos de dados por extensão
+data/**/*.csv
+data/**/*.parquet
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.zip
+data/**/*.tar
+data/**/*.gz
 
 # Logs / tmp
 *.log
